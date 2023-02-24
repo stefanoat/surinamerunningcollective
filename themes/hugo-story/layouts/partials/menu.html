@@ -1,4 +1,4 @@
-<nav class="navbar" style="background-color: #{{ .Site.Data.site.nav_bar_color}};">
+<nav class="navbar" style="background-color: {{ .Site.Data.site.nav_bar_color}};">
     <!-- LOGO -->
     <a href="#">
         <div class="logo">
@@ -8,19 +8,6 @@
 
     <!-- NAVIGATION MENU -->
     <ul class="nav-links">
-      <!-- USING CHECKBOX HACK -->
-      <!-- <input type="checkbox" id="checkbox_toggle" />
-      <label for="checkbox_toggle" class="hamburger">&#9776;</label> -->
-    
-      <!-- NAVIGATION MENUS -->
-      <!-- <div class="menu">
-        {{ range .Site.Menus.main }}
-          <li>
-            <a href="{{ .URL }}" style="color: #{{$.Site.Params.links_color}};">{{ .Name }}</a>
-          </li>
-        {{ end }}
-      </div> -->
-
       <div class="menu">
         {{ range .Site.Menus.main }}
           <li>
