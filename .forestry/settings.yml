@@ -13,6 +13,7 @@ sections:
 - type: document
   path: data/weekly.yml
   label: weekly runs
+  match: "**/*"
 - type: document
   path: data/upcoming.yml
   label: upcoming runs
@@ -22,7 +23,6 @@ sections:
 - type: document
   path: data/about.yml
   label: about
-  match: "**/*"
 upload_dir: static
 public_path: "/images"
 front_matter_path: ''
