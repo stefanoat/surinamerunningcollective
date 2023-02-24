@@ -5,22 +5,22 @@ content: 'Free to join. Just contact the number below via whatsapp.
 
   '
 items:
-- logo_image: "/images/fr.jpg"
-  days: Mon. Wed. Fri.
+- days: Mon. Wed. Fri.
+  logo_image: "/images/fr.jpg"
   time: 'Time: 5pm'
   location_name: Location Cul
   location_link: https://goo.gl/maps/icUoK6oPKCUn8SGZ9
   contact: "5977692229"
   name: Juan
-- logo_image: "/images/fr.jpg"
-  days: Mon. Wed. Fri.
+- days: Mon. Wed. Fri.
+  logo_image: "/images/fr.jpg"
   time: 'Time: 5pm'
   location_name: Location Cul
   location_link: https://goo.gl/maps/icUoK6oPKCUn8SGZ9
   contact: "5977692229"
   name: Juan
-- logo_image: "/images/fr.jpg"
-  days: Mon. Wed. Fri.
+- days: Mon. Wed. Fri.
+  logo_image: "/images/fr.jpg"
   time: 'Time: 5pm'
   location_name: Location Cul
   location_link: https://goo.gl/maps/icUoK6oPKCUn8SGZ9
