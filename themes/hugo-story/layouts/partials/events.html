@@ -6,9 +6,9 @@
     </div>
 
     <!-- Gallery -->
-    <div class="gallery style1 big onscroll-fade-in">
-        {{ range .routes }}
-            {{ partial "picture_route" . }}
+    <div class="gallery style2 big lightbox onscroll-fade-in">
+        {{ range .events }}
+            {{ partial "picture_event" . }}
         {{ end }}
     </div>
 </section>
