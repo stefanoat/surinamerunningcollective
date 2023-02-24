@@ -4,11 +4,22 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: directory
-  path: content
-  label: Pages
-  create: all
-  match: "*"
+- type: document
+  path: data/site.yml
+  label: site socials
+  match: "**/*"
+- type: document
+  path: data/banner.yml
+  label: welcome banner
+  match: "**/*"
+- type: document
+  path: data/items.yml
+  label: weekly runs
+  match: "**/*"
+- type: document
+  path: data/gallery.yml
+  label: upcoming runs
+  match: "**/*"
 upload_dir: static
 public_path: ''
 front_matter_path: ''
