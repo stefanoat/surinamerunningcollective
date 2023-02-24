@@ -4,7 +4,7 @@ logo : "images/"
 since : "2021 —"
 today : "2023"
 nav_bar_color: ""
-color: "fff"  
+nav_bar_text_color: "fff"  
 
 
 ####################### socials #########################
