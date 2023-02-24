@@ -42,7 +42,7 @@
 }
   
 .menu li:hover {  
-  background-color: #4c9e9e;
+  background-color: rgba(0, 0, 0, 0.5);
   border-radius: 5px;
   transition: 0.3s ease;
 }
