@@ -1,4 +1,4 @@
-<nav class="navbar" style="background-color: #{{ .Site.Data.site.nav_bar_color}}; color: #{{.Site.Data.site.color}};">
+<nav class="navbar" style="background-color: #{{ .Site.Data.site.nav_bar_color}};">
     <!-- LOGO -->
     <a href="#">
         <div class="logo">
@@ -24,7 +24,7 @@
       <div class="menu">
         {{ range .Site.Menus.main }}
           <li>
-            <a href="{{ .URL }}" style="color: #{{ $.Site.Data.site.color | safeCSS }};">{{ .Name }}</a>
+            <a href="{{ .URL }}" >{{ .Name }}</a>
           </li>
         {{ end }}
       </div>
