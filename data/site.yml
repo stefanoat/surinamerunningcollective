@@ -1,15 +1,10 @@
-####################### site #########################
-description : "A website for running in Suriname"
-logo : "images/"
-since : "2021 —"
-today : "2023"
-nav_bar_color: ""
-nav_bar_text_color: "fff"  
-
-
-####################### socials #########################
-# twitter: ""
-instagram : "https://www.instagram.com/surinamerunningcollective/"
-# linkedin: ""
-whatsapp : "https://wa.me/5977692229?text=I%20want%20to%20know%20more%20about%20running%20in%20Suriname"
-email : "run@surinamerunningcollective.com"
+---
+description: A website for running in Suriname
+logo: images/
+since: 2021 —
+today: "2023"
+nav_bar_color: ''
+nav_bar_text_color: ''
+instagram: https://www.instagram.com/surinamerunningcollective/
+whatsapp: https://wa.me/5977692229?text=I%20want%20to%20know%20more%20about%20running%20in%20Suriname
+email: run@surinamerunningcollective.com
