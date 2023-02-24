@@ -5,10 +5,6 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: data/routes.yml
-  label: routes
-  match: "**/*"
-- type: document
   path: data/site.yml
   label: site socials
 - type: document
@@ -20,6 +16,9 @@ sections:
 - type: document
   path: data/upcoming.yml
   label: upcoming runs
+- type: document
+  path: data/routes.yml
+  label: routes
 upload_dir: static
 public_path: ''
 front_matter_path: ''
