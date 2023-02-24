@@ -1,0 +1,42 @@
+## -----------------------------------------------
+## Basic Configuration
+## -----------------------------------------------
+
+theme = "hugo-story"
+
+## -----------------------------------------------
+## Publish
+## -----------------------------------------------
+
+relativeURLs = "true"
+#canonifyURLs = "true"
+
+# Local
+#baseURL = ""
+#publishDir = "public"
+
+# Remote
+baseURL = "https://surinamerunningcollective.onrender.com"
+publishDir = "public"
+
+
+## -----------------------------------------------
+## Hugo Built-in Features
+## -----------------------------------------------
+
+disableKinds = ["taxonomy", "taxonomyTerm", "section"]
+# googleAnalytics = "your-google-analytics-id"
+
+## -----------------------------------------------
+## Site Parameters
+## -----------------------------------------------
+
+[Params]
+  favicon = false
+
+[Params.social]
+
+[Params.asset]
+  fontawesome_css = ["css/fontawesome-all.min.css"]
+  own_css = ["css/own.css"]
+  fontawesome_js = ["js/fontawesome-all.min.js"]
