@@ -1,0 +1,14 @@
+<!-- Gallery -->
+<section class="wrapper style1 align-center" {{ with .id }} id="{{ . }}"{{ end }}>
+    <div class="inner">
+        <h2>{{ .title }}</h2>
+        <p>{{ .content | safeHTML }}</p>
+    </div>
+
+    <!-- Gallery -->
+    <div class="gallery style2 big lightbox onscroll-fade-in">
+        {{ range .events }}
+            {{ partial "event" . }}
+        {{ end }}
+    </div>
+</section>
