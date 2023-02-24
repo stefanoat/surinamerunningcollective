@@ -3,6 +3,9 @@ description : "A website for running in Suriname"
 logo : "images/"
 since : "2021 —"
 today : "2023"
+nav_bar_color: ""
+color: "fff"  
+
 
 ####################### socials #########################
 # twitter: ""
