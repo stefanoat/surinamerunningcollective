@@ -5,6 +5,10 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  path: data/routes.yml
+  label: routes
+  match: "**/*"
+- type: document
   path: data/site.yml
   label: site socials
 - type: document
