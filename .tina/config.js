@@ -47,8 +47,8 @@ const about_fields2 = [
 
 export default defineConfig({
   branch,
-  clientId: "0e20ddc0-7b7f-4bb8-876e-153c551c5ed5", // Get this from tina.io
-  token: "38e3312db5b2d68921d6ec089ba0ad882e6f1ebd", // Get this from tina.io
+  clientId: process.env.CLIENT_ID, // Get this from tina.io
+  token: process.env.TOKEN, // Get this from tina.io
   build: {
     outputFolder: "admin",
     publicFolder: "static",
