@@ -1,4 +1,5 @@
 import { defineConfig } from "tinacms";
+import dotenv from 'dotenv';
 import homePage from './collections/home.js';
 
 // Your hosting provider likely exposes this as an environment variable
@@ -6,8 +7,8 @@ const branch = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "main";
 
 export default defineConfig({
   branch,
-  clientId: process.env.clientId, // Get this from tina.io
-  token: process.env.token, // Get this from tina.io
+  clientId: process.env.CLIENT_ID, // Get this from tina.io
+  token: process.env.TOKEN, // Get this from tina.io
   build: {
     outputFolder: "admin",
     publicFolder: "static",
