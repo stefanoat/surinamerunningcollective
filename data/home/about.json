@@ -1,0 +1,15 @@
+{
+  "title": "About",
+  "idee": "about",
+  "text_color": "#fff",
+  "background_color": "teal",
+  "content": "runners! Collective. Suriname.We are runners! Collective. Suriname.We are runners! Collective. Suriname.We are runners! Collective. Suriname.We are runners! Collective.uriname.We are runners! Collective. Suriname.We are runners! Collective. Suriname.We are runners! Collective. Suriname.We are runners! Collective. Suriname.\n",
+  "image": "/fr.jpg",
+  "items": [
+    {
+      "label": "Contact via whatsapp",
+      "link": "https://wa.me/5977692229?text=I%20want%20to%20know%20more%20about%20running%20in%20Suriname",
+      "_template": "button"
+    }
+  ]
+}

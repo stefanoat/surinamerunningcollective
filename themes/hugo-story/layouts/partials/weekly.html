@@ -1,7 +1,7 @@
 <!-- Items -->
-<section class="wrapper style1 align-center"{{ with .idee }} id="{{ . }}"{{ end }} style="background-color: {{ .background_color}};">
+<section class="wrapper style1 align-center"{{ with .idee }} id="{{ . }}"{{ end }} style="color: {{ .text_color}};background-color: {{ .background_color}};">
     <div class="inner">
-        {{ with .title }}<h2>{{ . }}</h2>{{ end }}
+        <h2 style="color: {{ .text_color}};">{{ .title }}</h2>
         {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
         <div class="items style1 medium">
             {{ range .items }}

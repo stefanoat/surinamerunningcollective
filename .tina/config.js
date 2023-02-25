@@ -1,5 +1,6 @@
 import { defineConfig } from "tinacms";
 import homePage from "./collections/home.js";
+
 // Your hosting provider likely exposes this as an environment variable
 const branch = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "main";
 

@@ -1,8 +1,9 @@
+
 <section>
     <img class="logo" src="{{ .logo}}" alt="Logo">
-    <h3>{{ .days }}</h3>
+    <h3 style="color: {{ .text_color }}">{{ .days }}</h3>
     <p>{{ .time }} 
-    <br><a href="{{ .location_link }}" target="_blank"> {{ .location_name }} </a>
-    <br>{{ .name }} <a href="https://wa.me/{{ .contact }}" target="_blank">[ {{ .contact }} ]</a>
+    <br><a href="{{ .location_link }}" target="_blank" style="color: {{ .text_color }}"> {{ .location_name }} </a>
+    <br>{{ .name }} <a href="https://wa.me/{{ .contact }}" target="_blank" style="color: {{ .text_color }}">[ {{ .contact }} ]</a>
     </p>
 </section>

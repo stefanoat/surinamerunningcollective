@@ -1,0 +1,43 @@
+{
+  "title": "Weekly Runs",
+  "idee": "weekly",
+  "text_color": "#000",
+  "background_color": "yellow",
+  "content": "Free to join. Just contact the number below via whatsapp.\n",
+  "items": [
+    {
+      "days": "Mon. Wed. Fri.",
+      "text_color": "#000",
+      "logo": "/images/fr.jpg",
+      "time": "Time: 5pm",
+      "location_name": "Location Cul",
+      "location_link": "https://goo.gl/maps/icUoK6oPKCUn8SGZ9",
+      "contact": "5977692229",
+      "name": "Juan",
+      "_template": "run"
+    },
+    {
+      "days": "Sat. Sun.",
+      "text_color": "#000",
+      "logo": "/images/fr.jpg",
+      "time": "Time: 5pm",
+      "location_name": "Location Cul",
+      "location_link": "https://goo.gl/maps/icUoK6oPKCUn8SGZ9",
+      "contact": "5977692229",
+      "name": "Juan",
+      "_template": "run"
+    },
+    {
+      "days": "Tue. Thu.",
+      "text_color": "#000",
+      "logo": "/images/fr.jpg",
+      "time": "Time: 5pm",
+      "location_name": "Location Cul",
+      "location_link": "https://goo.gl/maps/icUoK6oPKCUn8SGZ9",
+      "contact": "5977692229",
+      "name": "Juan",
+      "_template": "run"
+    }
+  ],
+  "image": "no image used here"
+}

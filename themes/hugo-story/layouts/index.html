@@ -2,11 +2,11 @@
 
 	{{ partial "menu" site.Data.site }}
 	{{ partial "banner" site.Data.banner }}
-	{{ partial "weekly" site.Data.weekly }}
+	{{ partial "weekly" site.Data.home.weekly }}
 	{{ partial "gallery" site.Data.gallery }}
-	{{ partial "events" site.Data.upcoming }}
-	{{ partial "routes" site.Data.routes }}
-	{{ partial "about" site.Data.about }}
+	{{ partial "events" site.Data.home.upcoming }}
+	{{ partial "routes" site.Data.home.routes }}
+	{{ partial "about" site.Data.home.about }}
 	{{ partial "footer" site.Data.site }}
 
 {{ end }}

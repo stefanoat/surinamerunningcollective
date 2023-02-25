@@ -61,3 +61,8 @@
   padding: 0;
 }
   
+
+/* hide tinaCMS toolbar */
+#root > div > div:nth-child(5) > div > div > div.flex-1.relative > div > div:nth-child(3) > div.h-full.overflow-y-auto.max-h-full.bg-gray-50.py-5.px-6 > div > div > div > div:nth-child(5) > div > div > div.sticky.-top-4.inline-flex.shadow.rounded-md.mb-2.z-50.max-w-full > div > div > div {
+  display: none !important;
+}

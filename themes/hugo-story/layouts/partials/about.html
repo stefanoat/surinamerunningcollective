@@ -3,11 +3,13 @@
     <div class="content" style="color: {{ .text_color}};">
         <h2 style="color: {{ .text_color}};">{{ .title }}</h2>
         {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
-        {{ with .button }}<ul class="actions stacked">
+        {{ range .items }}
+        <ul class="actions stacked">
             <li><a href="{{ .link }}" class="button primary fit" target="_blank">{{ .label }}</a></li>
-        </ul>{{ end }}
+        </ul>
+        {{ end }}
     </div>
     {{ with .image }}<div class="image">
-        <img src="{{ . }}" alt="" />
+        <img src="images/{{ . }}" alt="" />
     </div>{{ end }}
 </section>
