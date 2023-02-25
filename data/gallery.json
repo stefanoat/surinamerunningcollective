@@ -1,0 +1,26 @@
+{
+  "text_color" : "#fff",
+  "background_color": "coral",
+  "pictures": [
+      {
+          "image": "images/events/fulls/01.jpg",
+          "thumb": "images/events/thumbs/01.jpg"
+      },
+      {
+          "image": "images/events/fulls/01.jpg",
+          "thumb": "images/events/thumbs/01.jpg"
+      },
+      {
+          "image": "images/events/fulls/01.jpg",
+          "thumb": "images/events/thumbs/01.jpg"
+      },
+      {
+          "image": "images/events/fulls/01.jpg",
+          "thumb": "images/events/thumbs/01.jpg"
+      },
+      {
+          "image": "images/events/fulls/01.jpg",
+          "thumb": "images/events/thumbs/01.jpg"
+      }
+  ]
+}
