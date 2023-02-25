@@ -5,4 +5,4 @@ resources/
 node_modules
 public/
 .env
-.env copy
+.tina/__generated__/
