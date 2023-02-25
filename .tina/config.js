@@ -50,8 +50,8 @@ export default defineConfig({
   clientId: "5106844b-dc8e-454a-bbad-9bba15ad6729", // Get this from tina.io
   token: "5d89d1ee065c445686748f0da5222f0df79b214e", // Get this from tina.io
   build: {
-    outputFolder: "public",
-    publicFolder: "public",
+    outputFolder: "admin",
+    publicFolder: "static",
   },
   media: {
     tina: {
