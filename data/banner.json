@@ -1,0 +1,10 @@
+{
+  "title": "Suriname Running Collective",
+  "subtitle": "Run together. Fun together.",
+  "content": "For updates on upcoming running events subscirbe via whatsapp.\n",
+  "button": {
+      "label": "Subscribe via whatsapp",
+      "link": "https://wa.me/5977692229?text=I%20want%20to%20subscribe%20for%20running%20events%20in%20Suriname"
+  },
+  "background_image": "images/banner.jpg"
+}

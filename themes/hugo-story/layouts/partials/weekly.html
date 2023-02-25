@@ -1,5 +1,5 @@
 <!-- Items -->
-<section class="wrapper style1 align-center"{{ with .id }} id="{{ . }}"{{ end }}>
+<section class="wrapper style1 align-center"{{ with .idee }} id="{{ . }}"{{ end }} style="background-color: {{ .background_color}};">
     <div class="inner">
         {{ with .title }}<h2>{{ . }}</h2>{{ end }}
         {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}

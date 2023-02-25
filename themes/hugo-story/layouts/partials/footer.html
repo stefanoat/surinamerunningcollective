@@ -1,15 +1,15 @@
 <!-- Footer -->
-<footer class="wrapper style1 align-center" id="contact">
-    <div class="inner">
-        <h2>Contact</h2>
+<footer class="wrapper style2 align-center"{{ with .idee }} id="{{ . }}"{{ end }} style="color: {{ .text_color}}; background-color: {{ .background_color_footer}};">
+    <div class="inner" style="background-color: {{ .background_color_footer}};">
+        <h3 style="color: {{ .text_color}};">Contact</h3>
         <ul class="icons">
-            {{ with .Site.Data.site.twitter }}<li><a target="_blank" href="{{.}}" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>{{end}}
-            {{ with .Site.Data.site.instagram }}<li><a target="_blank" href="{{.}}" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>{{end}}
-            {{ with .Site.Data.site.linkedin }}<li><a target="_blank" href="{{.}}" class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>{{end}}
-            {{ with .Site.Data.site.whatsapp }}<li><a target="_blank" href="{{.}}" class="icon brands style2 fa-whatsapp"><span class="label">Whatsapp</span></a></li>{{end}}
-            {{ with .Site.Data.site.email }}<li><a target="_blank" href="mailto:{{.}}" class="fav icon style2 fa-envelope"><span class="label">Email</span></a></li>{{end}}
+            {{ with .twitter }}<li><a target="_blank" href="{{.}}" class="icon brands style1 fa-twitter"><span class="label">Twitter</span></a></li>{{end}}
+            {{ with .instagram }}<li><a target="_blank" href="{{.}}" class="icon brands style1 fa-instagram fa-inverse" ><span class="label">Instagram</span></a></li>{{end}}
+            {{ with .linkedin }}<li><a target="_blank" href="{{.}}" class="icon brands style1 fa-linkedin fa-inverse"><span class="label">LinkedIn</span></a></li>{{end}}
+            {{ with .whatsapp }}<li><a target="_blank" href="{{.}}" class="icon brands style1 fa-whatsapp fa-inverse"><span class="label">Whatsapp</span></a></li>{{end}}
+            {{ with .email }}<li><a target="_blank" href="mailto:{{.}}" class="fav icon style1 fa-envelope fa-inverse"><span class="label">Email</span></a></li>{{end}}
         </ul>
-        <p>Suriname Running Collective &copy; {{ .Site.Data.site.since }} {{ .Site.Data.site.today }}
+        <p>Suriname Running Collective &copy; {{ .since }} {{ .today }}
             <!-- <span class="footerspacer icon fa-diamond"></span> -->
 </div>
 </footer>

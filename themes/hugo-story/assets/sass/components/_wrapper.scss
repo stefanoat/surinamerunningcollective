@@ -51,11 +51,11 @@
 /* Wrapper (style2) */
 
 	.wrapper.style2 {
-		padding: _size(padding, default);
+		padding: _size(padding, default)*0.25;
 		background-color: _palette(bg-alt);
 
 		> .inner {
-			@include padding(_size(padding, default) * 0.75, _size(padding, default) * 0.5);
+			@include padding(_size(padding, default) * 0.25, _size(padding, default) * 0.25);
 			background-color: _palette(bg);
 			border-radius: _size(border-radius-alt);
 			margin: 0 auto;
@@ -65,11 +65,11 @@
 			z-index: 1;
 
 			&.medium {
-				width: _size(inner) * 0.75;
+				width: _size(inner) * 0.25;
 			}
 
 			&.small {
-				width: _size(inner) * 0.5;
+				width: _size(inner) * 0.25;
 			}
 		}
 
@@ -77,7 +77,7 @@
 			padding: _size(padding, xlarge);
 
 			> .inner {
-				@include padding(_size(padding, xlarge) * 0.75, _size(padding, xlarge) * 0.5);
+				@include padding(_size(padding, xlarge) * 0.25, _size(padding, xlarge) * 0.25);
 			}
 		}
 
@@ -85,23 +85,23 @@
 			padding: _size(padding, large);
 
 			> .inner {
-				@include padding(_size(padding, large) * 0.75, _size(padding, large) * 0.5);
+				@include padding(_size(padding, large) * 0.25, _size(padding, large) * 0.25);
 			}
 		}
 
 		@include breakpoint('<=medium') {
-			padding: _size(padding, medium) * 0.75;
+			padding: _size(padding, medium) * 0.25;
 
 			> .inner {
-				@include padding(_size(padding, medium), _size(padding, medium) * 0.75);
+				@include padding(_size(padding, medium), _size(padding, medium) * 0.25);
 			}
 		}
 
 		@include breakpoint('<=small') {
-			padding: _size(padding, small) * 0.75;
+			padding: _size(padding, small) * 0.25;
 
 			> .inner {
-				@include padding(_size(padding, small), _size(padding, small) * 0.75);
+				@include padding(_size(padding, small), _size(padding, small) * 0.25);
 			}
 		}
 	}

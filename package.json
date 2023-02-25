@@ -1,0 +1,10 @@
+{
+    "scripts":{
+        "dev":"tinacms dev -c \"hugo server -D\"",
+        "build":"tinacms build && hugo"
+    },
+    "dependencies":{
+        "@tinacms/cli":"^1.2.2",
+        "tinacms":"^1.2.2"
+    }
+}

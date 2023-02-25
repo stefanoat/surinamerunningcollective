@@ -1,0 +1,41 @@
+{
+  "title": "Upcoming Events",
+  "idee": "events",
+  "text_color" : "#fff",
+  "background_color": "coral",
+  "content": "These are the upcoming running events in Suriname.\n",
+  "events": [
+      {
+          "title": "NY Marathon",
+          "content": "Join us in NY",
+          "image": "images/events/fulls/01.jpg",
+          "thumb": "images/events/thumbs/01.jpg",
+          "button_text": "Details",
+          "button_link": "http://www.surinamefrontrunners.org/"
+      },
+      {
+          "title": "NY Marathon",
+          "content": "Join us in NY",
+          "image": "images/events/fulls/01.jpg",
+          "thumb": "images/events/thumbs/01.jpg",
+          "button_text": "Details",
+          "button_link": "http://www.surinamefrontrunners.org/"
+      },
+      {
+          "title": "NY Marathon",
+          "content": "Join us in NY",
+          "image": "images/events/fulls/01.jpg",
+          "thumb": "images/events/thumbs/01.jpg",
+          "button_text": "Details",
+          "button_link": "http://www.surinamefrontrunners.org/"
+      },
+      {
+          "title": "NY Marathon",
+          "content": "Join us in NY",
+          "image": "images/events/fulls/01.jpg",
+          "thumb": "images/events/thumbs/01.jpg",
+          "button_text": "Details",
+          "button_link": "http://www.surinamefrontrunners.org/"
+      }
+  ]
+}

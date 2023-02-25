@@ -1,7 +1,7 @@
 <!-- Spotlight -->
-<section class="spotlight style2 orient-right content-align-left image-position-center onscroll-image-fade-in onscroll-content-fade-left"{{ with .id }} id="{{ . }}"{{ end }}>
-    <div class="content">
-        {{ with .title }}<h2>{{ . }}</h2>{{ end }}
+<section class="spotlight style2 orient-right content-align-left image-position-center onscroll-image-fade-in onscroll-content-fade-left"{{ with .idee }} id="{{ . }}"{{ end }} style="background-color: {{ .background_color}};">
+    <div class="content" style="color: {{ .text_color}};">
+        <h2 style="color: {{ .text_color}};">{{ .title }}</h2>
         {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
         {{ with .button }}<ul class="actions stacked">
             <li><a href="{{ .link }}" class="button primary fit" target="_blank">{{ .label }}</a></li>

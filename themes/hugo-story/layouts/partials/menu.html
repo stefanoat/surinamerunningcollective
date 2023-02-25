@@ -1,17 +1,17 @@
-<nav class="navbar" style="background-color: {{ .Site.Data.site.nav_bar_color}};">
+<nav class="navbar" style="background-color: {{ .background_color}};">
     <!-- LOGO -->
     <a href="#">
         <div class="logo">
-          <img class="logo" src="{{.Site.Data.site.logo}}" alt="logo">
+          <img class="logo" src="{{.logo}}" alt="logo">
         </div>
     </a>          
 
     <!-- NAVIGATION MENU -->
     <ul class="nav-links">
       <div class="menu">
-        {{ range .Site.Menus.main }}
+        {{ range .menu }}
           <li>
-            <a href="{{ .URL }}" >{{ .Name }}</a>
+            <a href="{{ .url }}" >{{ .name }}</a>
           </li>
         {{ end }}
       </div>

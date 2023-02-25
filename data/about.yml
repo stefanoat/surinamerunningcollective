@@ -1,9 +1,0 @@
-####################### Spotlight #########################
-id: "about"
-title : "About"
-content: |
-  We are runners! Collective. Suriname.We are runners! Collective. Suriname.We are runners! Collective. Suriname.We are runners! Collective. Suriname.We are runners! Collective. Suriname.We are runners! Collective. Suriname.We are runners! Collective. Suriname.We are runners! Collective. Suriname.We are runners! Collective. Suriname.
-button: 
-  label: "Contact via whatsapp"
-  link: "https://wa.me/5977692229?text=I%20want%20to%20know%20more%20about%20running%20in%20Suriname"
-image: "images/fr.jpg"

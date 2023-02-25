@@ -390,6 +390,7 @@
 		@include padding(_size(padding, default) * 0.75, _size(padding, default) * 0.75);
 		@include vendor('align-items', 'center');
 		@include vendor('display', 'flex');
+		@include vendor('flex-direction', 'column');
 		@include vendor('justify-content', 'center');
 		background-color: inherit;
 		position: relative;
@@ -399,7 +400,7 @@
 		.content {
 			@include padding(_size(padding, default) * 0.75, _size(padding, default) * 0.75);
 			position: relative;
-			width: (_size(inner) * 0.625);
+			width: (_size(inner) * 0.5);
 			max-width: 100%;
 			background-color: inherit;
 			border-radius: _size(border-radius-alt);
