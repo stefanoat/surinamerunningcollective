@@ -1,0 +1,46 @@
+{
+  "title": "Routes",
+  "idee": "routes",
+  "text_color": "#fff",
+  "background_color": "purple",
+  "content": "Routes to run in Suriname.\n",
+  "items": [
+    {
+      "title": "NY Marathon",
+      "content": "Join us in NY",
+      "button_text": "Details",
+      "button_link": "http://www.surinamefrontrunners.org/",
+      "image": "/images/events/fulls/02.jpg",
+      "thumb": "/images/events/thumbs/02.jpg",
+      "_template": "gallery_one"
+    },
+    {
+      "title": "NY Marathon",
+      "content": "Join us in NY",
+      "button_text": "Details",
+      "button_link": "http://www.surinamefrontrunners.org/",
+      "image": "/images/events/fulls/02.jpg",
+      "thumb": "/images/events/thumbs/02.jpg",
+      "_template": "gallery_one"
+    },
+    {
+      "title": "NY Marathon",
+      "content": "Join us in NY",
+      "button_text": "Details",
+      "button_link": "http://www.surinamefrontrunners.org/",
+      "image": "/images/events/fulls/02.jpg",
+      "thumb": "/images/events/thumbs/02.jpg",
+      "_template": "gallery_one"
+    },
+    {
+      "title": "NY Marathon",
+      "content": "Join us in NY",
+      "button_text": "Details",
+      "button_link": "http://www.surinamefrontrunners.org/",
+      "image": "/images/events/fulls/02.jpg",
+      "thumb": "/images/events/thumbs/02.jpg",
+      "_template": "gallery_one"
+    }
+  ],
+  "_template": "upcoming_routes_template"
+}

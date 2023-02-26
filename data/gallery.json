@@ -1,24 +1,25 @@
 {
-  "pictures": [
-      {
-          "image": "images/events/fulls/01.jpg",
-          "thumb": "images/events/thumbs/01.jpg"
-      },
-      {
-          "image": "images/events/fulls/01.jpg",
-          "thumb": "images/events/thumbs/01.jpg"
-      },
-      {
-          "image": "images/events/fulls/01.jpg",
-          "thumb": "images/events/thumbs/01.jpg"
-      },
-      {
-          "image": "images/events/fulls/01.jpg",
-          "thumb": "images/events/thumbs/01.jpg"
-      },
-      {
-          "image": "images/events/fulls/01.jpg",
-          "thumb": "images/events/thumbs/01.jpg"
-      }
-  ]
+  "items": [
+    {
+      "image": "/images/events/fulls/02.jpg",
+      "thumb": "/images/events/thumbs/02.jpg",
+      "_template": "gallery_two"
+    },
+    {
+      "image": "/images/events/fulls/02.jpg",
+      "thumb": "/images/events/thumbs/02.jpg",
+      "_template": "gallery_two"
+    },
+    {
+      "image": "/images/events/fulls/02.jpg",
+      "thumb": "/images/events/thumbs/02.jpg",
+      "_template": "gallery_two"
+    },
+    {
+      "image": "/images/events/fulls/02.jpg",
+      "thumb": "/images/events/thumbs/02.jpg",
+      "_template": "gallery_two"
+    }
+  ],
+  "_template": "gallery_template"
 }

@@ -3,9 +3,9 @@
     <div class="content" style="color: {{ .text_color}};">
         <h2 style="color: {{ .text_color}};">{{ .title }}</h2>
         {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
-        {{ range .items }}
+        {{ if and .button_text .button_link }}
         <ul class="actions stacked">
-            <li><a href="{{ .link }}" class="button primary fit" target="_blank">{{ .label }}</a></li>
+            <li><a href="{{ .button_link }}" class="button primary fit" target="_blank">{{ .button_text }}</a></li>
         </ul>
         {{ end }}
     </div>

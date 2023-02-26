@@ -5,14 +5,14 @@
         {{ with .subtitle }}<p class="major">{{ . | safeHTML }}</p>{{ end }}
         {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
     </div>
-    {{ with .button }}
+    {{ if and .button_text .button_link }}
     <div class="button_custom">
         <ul class="actions stacked">
-            <li><a href="{{ .link }}" class="button primary large wide smooth-scroll-middle" target="_blank">{{ .label }}</a></li>
+            <li><a href="{{ .button_link }}" class="button primary large wide smooth-scroll-middle" target="_blank">{{ .button_text }}</a></li>
         </ul>
     </div>
     {{ end }}
-    {{ with .background_image }}
+    {{ with .image }}
     <div class="image">
         <img src="{{.}}" alt="Hugo Story" />
     </div>

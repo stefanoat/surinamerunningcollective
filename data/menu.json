@@ -1,0 +1,34 @@
+{
+  "description": "A website for running in Suriname",
+  "image": "/images/fr.jpg",
+  "background_color": "#9C0808",
+  "text_color": "#B72424",
+  "items": [
+    {
+      "name": "Weekly Run",
+      "url": "#weekly",
+      "_template": "menu_one"
+    },
+    {
+      "name": "Events",
+      "url": "#events",
+      "_template": "menu_one"
+    },
+    {
+      "name": "Routes",
+      "url": "#routes",
+      "_template": "menu_one"
+    },
+    {
+      "name": "About",
+      "url": "#about",
+      "_template": "menu_one"
+    },
+    {
+      "name": "Contact",
+      "url": "#contact",
+      "_template": "menu_one"
+    }
+  ],
+  "_template": "menu_template"
+}

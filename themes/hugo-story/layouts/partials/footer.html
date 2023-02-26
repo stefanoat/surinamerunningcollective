@@ -1,15 +1,16 @@
 <!-- Footer -->
-<footer class="wrapper style2 align-center"{{ with .idee }} id="{{ . }}"{{ end }} style="color: {{ .text_color}}; background-color: {{ .background_color_footer}};">
-    <div class="inner" style="background-color: {{ .background_color_footer}};">
-        <h3 style="color: {{ .text_color}};">Contact</h3>
+<footer class="wrapper style2 align-center"{{ with .idee }} id="{{ . }}"{{ end }} style="color: {{ .text_color}}; background-color: {{ .background_color}};">
+    <div class="inner" style="background-color: {{ .background_color}};">
+        <h3 style="color: {{ .text_color}};">{{ .title }}</h3>
         <ul class="icons">
-            {{ with .twitter }}<li><a target="_blank" href="{{.}}" class="icon brands style1 fa-twitter"><span class="label">Twitter</span></a></li>{{end}}
-            {{ with .instagram }}<li><a target="_blank" href="{{.}}" class="icon brands style1 fa-instagram fa-2x fa-inverse" ><span class="label">Instagram</span></a></li>{{end}}
-            {{ with .linkedin }}<li><a target="_blank" href="{{.}}" class="icon brands style1 fa-linkedin fa-2x fa-inverse"><span class="label">LinkedIn</span></a></li>{{end}}
-            {{ with .whatsapp }}<li><a target="_blank" href="{{.}}" class="icon brands style1 fa-whatsapp fa-2x fa-inverse"><span class="label">Whatsapp</span></a></li>{{end}}
-            {{ with .email }}<li><a target="_blank" href="mailto:{{.}}" class="fav icon style1 fa-envelope fa-2x fa-inverse"><span class="label">Email</span></a></li>{{end}}
+            {{ if .twitter }}<li><a target="_blank" href="{{.}}" class="icon brands style1 fa-twitter"><span class="label">Twitter</span></a></li>{{end}}
+            {{ if .linkedin }}<li><a target="_blank" href="{{.}}" class="icon brands style1 fa-linkedin fa-2x fa-inverse"><span class="label">LinkedIn</span></a></li>{{end}}
+            
+            {{ if .instagram  }}<li><a target="_blank" href="{{.}}" class="icon brands style1 fa-instagram fa-2x {{ if .inverse }} fa-inverse {{ end }}"  style="color: {{.text_color}};"><span class="label">Instagram</span></a></li>{{end}}
+            {{ if .whatsapp }}<li><a target="_blank" href="{{.}}" class="icon brands style1 fa-whatsapp fa-2x {{ if .inverse }} fa-inverse {{ end }}" style="color: {{.text_color}};"><span class="label">Whatsapp</span></a></li>{{end}}
+            {{ if .email }}<li><a target="_blank" href="mailto:{{.}}" class="fav icon style1 fa-envelope fa-2x {{ if .inverse }} fa-inverse {{ end }}" style="color: {{.text_color}};"><span class="label">Email</span></a></li>{{end}}
         </ul>
-        <p>Suriname Running Collective &copy; {{ .since }} {{ .today }}
+        <p>Suriname Running Collective &copy; {{ .since }} {{ now.Year }}
             <!-- <span class="footerspacer icon fa-diamond"></span> -->
 </div>
 </footer>
